@@ -19,3 +19,6 @@ In the discussion:
 3. Benchmark the runtime of each algorithm. Your benchmarks should include information about your computer (ram, cpu etc.)
    and be run with various input sizes; from small (array of size 5,10,20) all the way up to large arrays (where your computer is struggling).
    I should at the very least see a plot of time vs input size n. Feel free to use benchmarking software.
+
+# Time Comparison of the algorithms 
+
