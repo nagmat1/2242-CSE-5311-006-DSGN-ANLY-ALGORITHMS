@@ -23,3 +23,7 @@ In the discussion:
 # Time Comparison of the algorithms 
 
 ![temp](https://github.com/nagmat1/2242-CSE-5311-006-DSGN-ANLY-ALGORITHMS/assets/51871069/5ca75617-0fed-4968-a9ae-6b09a5751047)
+
+# Number of Swaps comparison 
+
+![temp](https://github.com/nagmat1/2242-CSE-5311-006-DSGN-ANLY-ALGORITHMS/assets/51871069/d8eb0829-ad7d-4023-bbae-94c688a863e0)
