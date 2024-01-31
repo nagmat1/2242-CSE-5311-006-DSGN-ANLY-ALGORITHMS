@@ -16,3 +16,4 @@ Selection sort has a time complexity of O(n^2), where n is the number of element
 Selection sort performs a linear scan through the remaining unsorted portion to find the minimum element. Despite its simplicity, selection sort can be inefficient on large datasets compared to more advanced sorting algorithms like quicksort or mergesort.
 
 In conclusion, selection sort is a correct sorting algorithm that maintains the invariant of having a sorted portion at the beginning of the array and an unsorted portion at the end. Its correctness can be argued based on the initialization, maintenance, and termination steps, and its time complexity is well-defined, albeit less efficient than some other sorting algorithms.
+
