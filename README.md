@@ -27,3 +27,12 @@ In the discussion:
 # Number of Swaps comparison 
 
 ![temp](https://github.com/nagmat1/2242-CSE-5311-006-DSGN-ANLY-ALGORITHMS/assets/51871069/d8eb0829-ad7d-4023-bbae-94c688a863e0)
+
+# Benchmarks
+
+System Specifications:
+
+CPU: Apple M2 Pro
+RAM: 16 GB
+OS: MacOS Sonoma 14.2.1
+Python version: 3.9.7
