@@ -1,0 +1,18 @@
+Selection sort is a simple sorting algorithm which repeatedly chooses min or max of the element and brings it the beginning if the sorted portion. 
+
+Here's an argument for its correctness:
+
+Initialization: 
+At the beginning of the algorithm, the sorted portion of the array is empty, and the unsorted portion contains all the elements. Therefore, the invariant holds trivially at the start.
+
+Maintenance: 
+On each iteration, selection sort selects the smallest element from the unsorted portion and swaps it with the first element of unsorted portion. Then, the first element of the unsorted portion becomes a part of the sorted portion. The size of the sorted portion increases by one, and the size of the unsorted portion decreases by one.  Therefore after each iteration the array is sorted up to the current element. 
+
+Termination: 
+The algorithm terminates when the entire array is sorted. 
+
+Time Complexity: 
+Selection sort has a time complexity of O(n^2), where n is the number of elements in the array. 
+Selection sort performs a linear scan through the remaining unsorted portion to find the minimum element. Despite its simplicity, selection sort can be inefficient on large datasets compared to more advanced sorting algorithms like quicksort or mergesort.
+
+In conclusion, selection sort is a correct sorting algorithm that maintains the invariant of having a sorted portion at the beginning of the array and an unsorted portion at the end. Its correctness can be argued based on the initialization, maintenance, and termination steps, and its time complexity is well-defined, albeit less efficient than some other sorting algorithms.
