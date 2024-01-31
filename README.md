@@ -33,6 +33,9 @@ In the discussion:
 System Specifications:
 
 CPU: Apple M2 Pro
+
 RAM: 16 GB
+
 OS: MacOS Sonoma 14.2.1
+
 Python version: 3.9.7
