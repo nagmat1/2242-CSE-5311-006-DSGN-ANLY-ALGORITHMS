@@ -1,0 +1,9 @@
+To analyze the time complexity of merging K sorted arrays, let's denote N as the average size of each array.
+
+Building the Initial Heap: Building the initial min-heap from the first elements of each array takes O(K log K) time. This is because we have K initial elements to insert into the heap, and each insertion operation into the heap takes O(log K) time.
+
+Merging: After building the initial heap, we repeatedly extract the minimum element from the heap and insert the next element from the array it came from until all elements have been merged. Since each element is inserted into the heap exactly once and extracted from the heap exactly once, the merging process takes O(N * log K) time. This is because there are a total of K arrays and each array has, on average, N elements. Each insertion and extraction operation from the heap takes O(log K) time.
+
+Therefore, the overall time complexity of merging K sorted arrays of size N each using a heap-based approach is O(N * log K) + O(K log K).
+
+In most practical cases, N is significantly larger than K, so the time complexity is approximately O(N * log K). This complexity indicates that the algorithm's runtime grows logarithmically with the number of sorted arrays (K) and linearly with the average size of each array (N).
