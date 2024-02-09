@@ -23,3 +23,5 @@ print("Output:", remove_duplicates(array1))  # Output: [2]
 
 print("Input:", array2)
 print("Output:", remove_duplicates(array2))  # Output: [1, 2, 3, 4, 5]
+
+# The time complexity of the function remove_duplicates is O(N), where N is the size of the input array.
