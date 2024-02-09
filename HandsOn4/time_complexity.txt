@@ -1,0 +1,11 @@
+The time complexity of the recursive Fibonacci algorithm can be analyzed using the concept of recursion tree and mathematical induction.
+
+In the recursive Fibonacci algorithm, each function call leads to two more function calls until it reaches the base cases (n == 1 and n == 2). Therefore, the number of function calls grows exponentially with n, forming a binary tree structure.
+
+Let's denote T(n) as the time complexity of the recursive Fibonacci algorithm for input size n. Each node in the recursion tree corresponds to a function call, and each level of the tree represents one unit of time (since each function call is assumed to take constant time).
+
+At each level of the recursion tree, there are two branches, each corresponding to a recursive call. Thus, the total number of nodes at level i is 2^i. The depth of the recursion tree is n because the input size decreases by 1 in each recursive call until it reaches the base case.
+
+Therefore, the total number of nodes in the recursion tree (i.e., the total number of function calls) is the sum of nodes at each level, which can be expressed as:
+
+T(n)=1+2+4+...2^(n-1) ==> O(2^n)
