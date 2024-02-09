@@ -1,0 +1,9 @@
+fibo5
+fibo4
+fibo3
+fibo2
+fibo1
+fibo2
+fibo3
+fibo2
+fibo1
