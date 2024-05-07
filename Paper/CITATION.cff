@@ -1,1 +1,13 @@
 
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Nazarov
+    given-names: Nagmat
+    orcid: https://orcid.org/0000-0003-4844-0497
+title: "The Analysis of Heap paper"
+version: 2.0.4
+identifiers:
+  - type: doi
+    value: 
+date-released: 2024-05-07
